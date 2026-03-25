@@ -1,16 +1,20 @@
-## Hi there 👋
+Hey there! 👋
 
-<!--
-**VeljkoIvic/VeljkoIvic** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+I'm Veljko, a Junior Project Manager and Computer Science student (HF) based in Switzerland.
 
-Here are some ideas to get you started:
+I build practical software solutions with a strong focus on structure, simplicity, and real-world usability.
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+If I see a problem, I enjoy finding a clean and efficient way to solve it — and turning ideas into working applications.
+
+My main focus is C#, .NET, and software architecture.  
+I’m especially interested in building structured applications using patterns like MVC and MVVM.
+
+I’ve worked on several projects involving desktop apps, APIs, and data-driven systems.
+
+Currently, I’m improving my skills in software development, architecture, and project coordination between business and tech.
+
+Fun Facts:
+- My favorite anime is One Piece 🏴‍☠️
+- I enjoy fishing in my free time 🎣
+- I like building things that solve real-world problems
+- Always curious and constantly learning 🚀
