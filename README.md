@@ -4,7 +4,7 @@ I'm Veljko, a Junior Project Manager and Computer Science student (HF) based in 
 
 I build practical software solutions with a strong focus on structure, simplicity, and real-world usability.
 
-If I see a problem, I enjoy finding a clean and efficient way to solve it — and turning ideas into working applications.
+If I see a problem, I enjoy finding a clean and efficient way to solve it and turning ideas into working applications.
 
 My main focus is C#, .NET, and software architecture.  
 I’m especially interested in building structured applications using patterns like MVC and MVVM.
