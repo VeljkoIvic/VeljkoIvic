@@ -2,10 +2,6 @@
   <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=20&duration=3000&pause=1000&color=00C6FF&center=true&vCenter=true&width=620&lines=Junior+Project+Manager+%C2%B7+Electrical+Engineering;Computer+Science+Student+(HF);C%23+%C2%B7+.NET+%C2%B7+Blazor+%C2%B7+WPF;I+pulled+cables+before+I+pulled+requests" alt="Junior Project Manager · Computer Science Student (HF) · C# / .NET" />
 </p>
 
-<p align="center">
-  <img src="https://komarev.com/ghpvc/?username=VeljkoIvic&style=for-the-badge&color=7B2FF7&label=PROFILE+VIEWS" alt="Profile views" />
-</p>
-
 <!-- Kontakt-Icons: Link eintragen und die Kommentarzeichen (diese Zeile und die letzte) entfernen
 <p align="center">
   <a href="https://www.linkedin.com/in/DEIN-PROFIL/"><img src="https://skillicons.dev/icons?i=linkedin" height="40" alt="LinkedIn" /></a>
