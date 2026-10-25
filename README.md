@@ -48,25 +48,19 @@ public sealed class Veljko : IDeveloper
 
 <table>
   <tr>
-    <td width="50%" valign="top">
+    <td colspan="2" valign="top">
       <h3>💰 Monella</h3>
       <p>Finance &amp; receipt management web app – budgets, accounting and digital receipts with <b>warranty reminders</b>. My HF diploma thesis, built with a full software-engineering process and accessibility in mind (WCAG 2.2 AA).</p>
       <p><code>Blazor</code> <code>ASP.NET Core</code> <code>PostgreSQL</code> <code>Docker</code></p>
       <sub>🟡 In progress · Diploma thesis</sub>
     </td>
+  </tr>
+  <tr>
     <td width="50%" valign="top">
       <h3>🎣 Fisher Tech Service</h3>
       <p>Website for a Swiss fishing rod &amp; reel service – concept, design and build. Next up: a dashboard that tracks which spare parts fit which reel models, so <b>shared parts live in one place</b> instead of twenty separate lists.</p>
       <p><code>Astro</code> <code>Sass</code> <code>Bulma</code></p>
       <sub>🟢 Website live · <a href="https://www.fishertechservice.ch">fishertechservice.ch ↗</a></sub>
-    </td>
-  </tr>
-  <tr>
-    <td width="50%" valign="top">
-      <h3>♟️ Chess Game</h3>
-      <p>A desktop chess game with move logic, turn-based play and a clean UI – my playground for game logic and clean architecture in C#.</p>
-      <p><code>C#</code> <code>.NET</code> <code>WPF</code> <code>XAML</code></p>
-      <sub>🟡 In progress · <a href="https://github.com/VeljkoIvic/ChessGame">View code →</a></sub>
     </td>
     <td width="50%" valign="top">
       <h3>🧠 Algorithm Practice</h3>
