@@ -2,6 +2,10 @@
   <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=20&duration=3000&pause=1000&color=00C6FF&center=true&vCenter=true&width=620&lines=Junior+Project+Manager+%C2%B7+Electrical+Engineering;Computer+Science+Student+(HF);C%23+%C2%B7+.NET+%C2%B7+Blazor+%C2%B7+WPF;I+pulled+cables+before+I+pulled+requests" alt="Junior Project Manager · Computer Science Student (HF) · C# / .NET" />
 </p>
 
+<p align="center">
+  <img src="https://komarev.com/ghpvc/?username=VeljkoIvic&style=for-the-badge&color=7B2FF7&label=PROFILE+VIEWS" alt="Profile views" />
+</p>
+
 <!-- Kontakt-Icons: Link eintragen und die Kommentarzeichen (diese Zeile und die letzte) entfernen
 <p align="center">
   <a href="https://www.linkedin.com/in/DEIN-PROFIL/"><img src="https://skillicons.dev/icons?i=linkedin" height="40" alt="LinkedIn" /></a>
@@ -53,7 +57,7 @@ public sealed class Veljko : IDeveloper
 
 <table>
   <tr>
-    <td width="50%" valign="top">
+    <td width="33%" valign="top">
       <h3>💰 Monella</h3>
       <p>Finance &amp; receipt management web app – budgets, accounting and digital receipts with <b>warranty reminders</b>. My diploma thesis (HF), built with a full software-engineering process and accessibility in mind (WCAG 2.2 AA).</p>
       <p>
@@ -62,30 +66,27 @@ public sealed class Veljko : IDeveloper
         <img src="https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white" alt="PostgreSQL" />
         <img src="https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white" alt="Docker" />
       </p>
-      <sub>🚧 In progress · 2026 – 2027</sub>
     </td>
-    <td width="50%" valign="top">
-      <h3>⏱️ FocusTimer</h3>
-      <p>A desktop focus timer for Windows, built from scratch with C# and WPF on .NET 10 – small, fast and focused on doing one thing well.</p>
+    <td width="33%" valign="top">
+      <h3>🎣 Reel Dashboard</h3>
+      <p>Inventory &amp; customer dashboard for a fishing-reel repair service. The interesting part: tracking which spare parts fit which reel models, so <b>shared parts live in one place</b> instead of twenty separate lists.</p>
+      <p>
+        <img src="https://img.shields.io/badge/Stack-TBD-6E7681?style=flat-square" alt="Stack: TBD" />
+      </p>
+    </td>
+    <td width="33%" valign="top">
+      <h3>🧠 Algorithm Practice</h3>
+      <p>LeetCode problems and C# exercises – sharpening algorithms, data structures and clean fundamentals one problem at a time.</p>
       <p>
         <img src="https://img.shields.io/badge/C%23-512BD4?style=flat-square&logo=dotnet&logoColor=white" alt="C#" />
-        <img src="https://img.shields.io/badge/WPF-512BD4?style=flat-square&logo=dotnet&logoColor=white" alt="WPF" />
-        <img src="https://img.shields.io/badge/.NET_10-512BD4?style=flat-square&logo=dotnet&logoColor=white" alt=".NET 10" />
+        <img src="https://img.shields.io/badge/LeetCode-FFA116?style=flat-square&logo=leetcode&logoColor=black" alt="LeetCode" />
       </p>
-      <sub>🖥️ Desktop app</sub>
     </td>
   </tr>
   <tr>
-    <td width="50%" valign="top">
-      <h3>🎣 Reel Service Dashboard</h3>
-      <p>Inventory &amp; customer dashboard for a fishing-reel repair service. The interesting part: tracking which spare parts fit which reel models, so <b>shared parts live in one place</b> instead of twenty separate lists.</p>
-      <sub>🔜 Planned</sub>
-    </td>
-    <td width="50%" valign="top">
-      <h3>🧠 Algorithm Practice</h3>
-      <p>LeetCode problems and C# exercises – sharpening algorithms, data structures and clean fundamentals one problem at a time.</p>
-      <sub>♻️ Ongoing · <a href="https://github.com/VeljkoIvic?tab=repositories">All repositories →</a></sub>
-    </td>
+    <td><img src="https://img.shields.io/badge/Status-In_progress-F59E0B?style=flat-square" alt="Status: In progress" /></td>
+    <td><img src="https://img.shields.io/badge/Status-Planned-6E7681?style=flat-square" alt="Status: Planned" /></td>
+    <td><img src="https://img.shields.io/badge/Status-Ongoing-2EA043?style=flat-square" alt="Status: Ongoing" /></td>
   </tr>
 </table>
 
