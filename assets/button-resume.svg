@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="140" height="44" viewBox="0 0 140 44" role="img" aria-label="Resume">
+  <defs>
+    <linearGradient id="brand" x1="0" y1="0" x2="140" y2="0" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#7B2FF7"/>
+      <stop offset="1" stop-color="#00C6FF"/>
+    </linearGradient>
+    <linearGradient id="icon" x1="22" y1="13" x2="36" y2="31" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#A47BFF"/>
+      <stop offset="1" stop-color="#00C6FF"/>
+    </linearGradient>
+  </defs>
+  <rect x="1" y="1" width="138" height="42" rx="21" fill="#0B0E14" stroke="url(#brand)" stroke-width="1.5"/>
+  <g fill="none" stroke="url(#icon)" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M24 14 H31 L36 19 V30 H24 Z"/>
+    <path d="M31 14 V19 H36"/>
+    <path d="M27 23.5 H33 M27 26.5 H31"/>
+  </g>
+  <text x="46" y="27" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Noto Sans', Helvetica, Arial, sans-serif" font-size="14.5" font-weight="600" fill="#FFFFFF">Resume</text>
+</svg>

@@ -1,0 +1,112 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="300" viewBox="0 0 1000 300" role="img" aria-labelledby="title desc">
+  <title id="title">Veljko Ivic</title>
+  <desc id="desc">Junior Project Manager in electrical engineering and Computer Science student (HF) from Zurich, Switzerland.</desc>
+
+  <style>
+    .sans  { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Noto Sans', Helvetica, Arial, sans-serif; }
+    .mono  { font-family: ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace; }
+
+    .trace { fill: none; stroke: #FFFFFF; stroke-opacity: .10; stroke-width: 1.5; }
+    .node  { fill: #0B0E14; stroke: #FFFFFF; stroke-opacity: .22; stroke-width: 1.5; }
+    .pulse { fill: none; stroke: #5EE4FF; stroke-width: 2; stroke-linecap: round;
+             stroke-dasharray: 14 120; stroke-dashoffset: 14; animation: flow 4.5s linear infinite; }
+    .p2 { animation-duration: 5.5s; animation-delay: 1.2s; }
+    .p3 { animation-duration: 5s;   animation-delay: 2.6s; }
+    .p4 { animation-duration: 6s;   animation-delay: .6s;  }
+    .p5 { animation-duration: 4s;   animation-delay: 3.4s; }
+    @keyframes flow { from { stroke-dashoffset: 14; } to { stroke-dashoffset: -100; } }
+
+    /* Rotating subtitle: three lines, four seconds each */
+    .line { opacity: 0; animation: cycle 12s ease-in-out infinite both; }
+    .l1 { opacity: 1; }
+    .l2 { animation-delay: 4s; }
+    .l3 { animation-delay: 8s; }
+    @keyframes cycle {
+      0%     { opacity: 0; transform: translateY(6px); }
+      4%     { opacity: 1; transform: translateY(0); }
+      29%    { opacity: 1; transform: translateY(0); }
+      33.3%  { opacity: 0; transform: translateY(-6px); }
+      100%   { opacity: 0; }
+    }
+    .cursor { animation: blink 1s steps(1) infinite; }
+    @keyframes blink { 50% { fill-opacity: 0; } }
+
+    @media (prefers-reduced-motion: reduce) {
+      .line, .pulse, .cursor { animation: none; }
+      .l1 { opacity: 1; }
+      .pulse { stroke-opacity: 0; }
+    }
+  </style>
+
+  <defs>
+    <linearGradient id="brand" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#7B2FF7"/>
+      <stop offset="1" stop-color="#00C6FF"/>
+    </linearGradient>
+    <filter id="glow" x="-60%" y="-60%" width="220%" height="220%">
+      <feGaussianBlur stdDeviation="60"/>
+    </filter>
+    <pattern id="dots" width="22" height="22" patternUnits="userSpaceOnUse">
+      <circle cx="2" cy="2" r="1" fill="#FFFFFF"/>
+    </pattern>
+    <linearGradient id="fade" x1="0" y1="0" x2="1" y2="0">
+      <stop offset=".45" stop-color="#FFFFFF" stop-opacity="0"/>
+      <stop offset="1"   stop-color="#FFFFFF" stop-opacity="1"/>
+    </linearGradient>
+    <mask id="dotmask">
+      <rect width="1000" height="300" fill="url(#fade)"/>
+    </mask>
+    <clipPath id="card">
+      <rect width="1000" height="300" rx="20"/>
+    </clipPath>
+  </defs>
+
+  <g clip-path="url(#card)">
+    <!-- Background -->
+    <rect width="1000" height="300" fill="#0B0E14"/>
+    <circle cx="910" cy="10"  r="190" fill="#7B2FF7" opacity=".45" filter="url(#glow)"/>
+    <circle cx="700" cy="330" r="160" fill="#00C6FF" opacity=".25" filter="url(#glow)"/>
+    <rect width="1000" height="300" fill="url(#dots)" opacity=".09" mask="url(#dotmask)"/>
+
+    <!-- Circuit traces: cables flowing into code -->
+    <path class="trace" d="M1000 62 H905 L875 92 H765"/>
+    <path class="trace" d="M1000 136 H925 L895 106 H840"/>
+    <path class="trace" d="M1000 176 H805 L775 206 H725"/>
+    <path class="trace" d="M1000 208 H885"/>
+    <path class="trace" d="M1000 236 H945 L915 266 H850"/>
+
+    <path class="pulse"    pathLength="100" d="M1000 62 H905 L875 92 H765"/>
+    <path class="pulse p2" pathLength="100" d="M1000 136 H925 L895 106 H840"/>
+    <path class="pulse p3" pathLength="100" d="M1000 176 H805 L775 206 H725"/>
+    <path class="pulse p4" pathLength="100" d="M1000 208 H885"/>
+    <path class="pulse p5" pathLength="100" d="M1000 236 H945 L915 266 H850"/>
+
+    <circle class="node" cx="765" cy="92"  r="5"/>
+    <circle class="node" cx="840" cy="106" r="5"/>
+    <circle class="node" cx="725" cy="206" r="5"/>
+    <circle class="node" cx="885" cy="208" r="5"/>
+    <circle class="node" cx="850" cy="266" r="5"/>
+    <circle cx="765" cy="92"  r="1.8" fill="#5EE4FF"/>
+    <circle cx="840" cy="106" r="1.8" fill="#A47BFF"/>
+    <circle cx="725" cy="206" r="1.8" fill="#5EE4FF"/>
+    <circle cx="885" cy="208" r="1.8" fill="#A47BFF"/>
+    <circle cx="850" cy="266" r="1.8" fill="#5EE4FF"/>
+  </g>
+
+  <!-- Hairline border -->
+  <rect x=".5" y=".5" width="999" height="299" rx="19.5" fill="none" stroke="#FFFFFF" stroke-opacity=".08"/>
+
+  <!-- Text -->
+  <circle cx="69" cy="84" r="4" fill="url(#brand)"/>
+  <text class="sans" x="82" y="89" font-size="14" font-weight="600" letter-spacing="3" fill="#9AA4B8">ZURICH, SWITZERLAND</text>
+
+  <text class="sans" x="62" y="160" font-size="68" font-weight="700" letter-spacing="-1.5" fill="#FFFFFF">Veljko Ivic</text>
+
+  <text class="sans" x="65" y="202" font-size="21" fill="#9AA4B8">Junior Project Manager · Electrical Engineering</text>
+
+  <g class="mono" font-size="18" fill="#E6EDF3">
+    <text class="line l1" x="65" y="250"><tspan fill="#00C6FF">›</tspan> Computer Science Student (HF)<tspan class="cursor" fill="#00C6FF"> ▍</tspan></text>
+    <text class="line l2" x="65" y="250"><tspan fill="#00C6FF">›</tspan> C# · .NET · Blazor · WPF<tspan class="cursor" fill="#00C6FF"> ▍</tspan></text>
+    <text class="line l3" x="65" y="250"><tspan fill="#00C6FF">›</tspan> I pulled cables before I pulled requests.<tspan class="cursor" fill="#00C6FF"> ▍</tspan></text>
+  </g>
+</svg>
