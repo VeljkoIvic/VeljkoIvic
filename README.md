@@ -73,12 +73,6 @@ public sealed class Veljko : IDeveloper
 
 <p align="center"><sub><a href="https://github.com/VeljkoIvic?tab=repositories">See all repositories →</a></sub></p>
 
-## Activity
-
-<p align="center">
-  <img src="https://streak-stats.demolab.com/?user=VeljkoIvic&hide_border=true&background=00000000&timezone=Europe/Zurich&ring=7B2FF7&fire=00C6FF&currStreakNum=00C6FF&currStreakLabel=00C6FF&sideNums=8B949E&sideLabels=8B949E&dates=8B949E&stroke=30363D" alt="Contribution streak" />
-</p>
-
 ## Off the keyboard
 
 - 🏴‍☠️ **One Piece** – the anime *and* the trading card game (yes, I build competitive decks)
